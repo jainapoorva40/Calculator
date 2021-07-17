@@ -1,0 +1,96 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>-APOORVA</title>
+            <style >
+            h1{
+            text-align: center;
+            padding:25px;
+            background-color: pink;
+            color: slateblue;
+            }
+            #clear
+            {
+            width: 200px;
+            border: 3px solid green ;
+            border-radius: 3px;
+            background-color: hotpink;
+            color: indigo;
+            padding: 28px;
+            }
+            .formsty{
+            box-align: center;
+            text-align: center;
+            width: 300px;
+            height: 620px;
+            border: 6px solid blue;
+            padding: 20px;
+            }
+            input 
+            {
+            width:20px;
+            background-color: grey;
+            color: indigo;
+            border: 3px burlywood;
+            padding: 26px;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 15px;
+            
+            }
+            #calc{
+            width: 250px;
+            border:5px cadetblue;
+            background-color: gainsboro;
+            border-radius: 3px;
+            padding: 15px;
+            }
+            </style>
+        </head>
+        <body >
+
+        <h1>Calculator<br>
+        <h2>&nbsp;&nbsp;-by Apoorva</h2>
+
+        <div class="formsty">
+            <form name="form1">
+
+                <input id="calc" type="text" name="display"><br><br>
+
+                <input type="button"  value="1" onclick="form1.display.value+='1'">
+                <input type="button"  value="2" onclick="form1.display.value+='2'">
+                <input type="button"  value="3" onclick="form1.display.value+='3'">
+                <input type="button"  value="+" onclick="form1.display.value+='+'">
+                <br><br>
+                <input type="button"  value="4" onclick="form1.display.value+='4'">
+                <input type="button"  value="5" onclick="form1.display.value+='5'">
+                <input type="button"  value="6" onclick="form1.display.value+='6'">
+                <input type="button"  value="-" onclick="form1.display.value+='-'">
+                <br><br>
+
+                <input type="button"  value="7" onclick="form1.display.value+='7'">
+                <input type="button"  value="8" onclick="form1.display.value+='8'">
+                <input type="button"  value="9" onclick="form1.display.value+='9'">
+                <input type="button"  value="*" onclick="form1.display.value+='*'">
+                <br><br>
+
+                <input type="button"  value="0" onclick="form1.display.value+='0'">
+               <input type="button"  value="/" onclick="form1.display.value+='/'">
+                <input type="button"  value="(" onclick="form1.display.value+='('">
+                <input type="button"  value=")" onclick="form1.display.value+=')'">
+                <br><br>
+
+               
+                <input type="button"  value="=" onclick="form1.display.value=eval(form1.display.value)">
+                <input type="button"  value="." onclick="form1.display.value+='.'">
+                
+
+                <input type="button"  value="C" onclick="form1.display.value=' '" id="clear">
+                <br>
+
+            </form>
+        </div>
+
+    </body>
+
+    </html>
